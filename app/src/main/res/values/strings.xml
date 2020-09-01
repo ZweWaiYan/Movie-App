@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Let\'s watch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_popular">Popular</string>
+    <string name="menu_toprated">Top Rated</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail_txt">Irelands Number 1 comedian Tommy Tiernan’s live stand up show Ok Baby filmed at this years (2007) Bud Light Comedy Revue at the Iveagh Gardens, Dublin with extra bonus material  This performance was filmed in July 2007. In typical Tommy Tiernan style it’s not for the faint hearted or ‘easily offended’ – wicked, wild and ferociously funny, nothing is sacred.  Chapters:  Opposite of Mass  Farmer Time  Touch Me  Outdoor Lover Man  Dark Matter  Hot Rain  No God….T-Rex</string>
+
+</resources>

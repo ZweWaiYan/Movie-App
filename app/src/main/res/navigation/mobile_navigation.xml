@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="Similar"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.letuse.letswatch.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_detail"
+        android:name="com.letuse.letswatch.ui.detail.DetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="Data"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_nav_detail_self"
+            app:destination="@id/nav_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_topRated"
+        android:name="com.letuse.letswatch.ui.topRated.TopRatedFragment"
+        android:label="Top Rated"
+        tools:layout="@layout/fragment_top_rated">
+        <action
+            android:id="@+id/action_nav_topRated_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_popular"
+        android:name="com.letuse.letswatch.ui.popular.PopularFragment"
+        android:label="Popular"
+        tools:layout="@layout/fragment_popular">
+        <action
+            android:id="@+id/action_popularFragment_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_nowPlaying"
+        android:name="com.letuse.letswatch.ui.nowplaying.NowPlayingFragment"
+        android:label="Now Playing"
+        tools:layout="@layout/fragment_now_playing">
+        <action
+            android:id="@+id/action_nowPlayingFragment2_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_upComing"
+        android:name="com.letuse.letswatch.ui.upcoming.UpComingFragment"
+        android:label="Up Coming"
+        tools:layout="@layout/fragment_up_coming">
+        <action
+            android:id="@+id/action_upComingFragment2_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+</navigation>
